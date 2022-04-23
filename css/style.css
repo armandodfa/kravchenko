@@ -1,0 +1,456 @@
+body{
+    background-color: black;
+    font-family: Helvetica;
+}
+
+#logo_text{
+    color: white;
+    position: absolute;
+    width:  270px;
+    height: 70px;
+    left: 20px;
+    top: 5px;
+    background-image: url(../img/logo1.png);
+    background-position:  100%;
+    background-size: 110%;
+    font-family: Cinzel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    /* or 100% */
+
+    text-transform: uppercase;
+}
+h1{
+    position: absolute;
+    width: 102px;
+    height: 16px;
+    top: 5px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+#tag1{left: 375px;}
+#tag2{left: 560px;}
+#tag3{left: 715px;}
+#tag4{left: 854px;}
+#tag5{left: 1022px;}
+#head_img{
+    position: absolute;
+    width: 30px;
+    height: 35px;
+    left: 1217.26px;
+    top: -5px;
+    background-image:url(../img/Header.png);
+    
+}
+#main{
+    position: absolute;
+    width: 384px;
+    height: 32px;
+    left: 800px;
+    top: 300px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+
+}
+#main_img{
+    position: absolute;
+    width: 640px;
+    height: 474px;
+    left: 131px;
+    top: 209px;
+}
+#card1{
+    position: absolute;
+    width: 480px;
+    height: 72px;
+    left: 131px;
+    top: 748px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+#logo2{
+    position: absolute;
+    width: 385px;
+    height: 119px;
+    left: 800px;
+    top: 748px;
+    
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    }
+#card2{
+    position: absolute;
+    width: 480px;
+    height: 72px;
+    left: 131px;
+    top: 900px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+#card3{
+    position: absolute;
+    width: 480px;
+    height: 72px;
+    left: 131px;
+    top: 1100px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+#card4{
+    position: absolute;
+    width: 480px;
+    height: 72px;
+    left: 131px;
+    top: 1200px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+#card5{
+    position: absolute;
+    width: 480px;
+    height: 72px;
+    left: 131px;
+    top: 1300px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+#card6{
+    position: absolute;
+    width: 480px;
+    height: 72px;
+    left: 131px;
+    top: 1440px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+#card7{
+    position: absolute;
+    width: 480px;
+    height: 72px;
+    left: 131px;
+    top: 1580px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+#logo3{
+    position: absolute;
+    width: 252px;
+    height: 119px;
+    left: 895px;
+    top: 1800px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+#card8{
+    position: absolute;
+    width: 480px;
+    height: 72px;
+    left: 131px;
+    top: 1800px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+#card9{
+    position: absolute;
+    width: 480px;
+    height: 72px;
+    left: 131px;
+    top: 1940px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+#card10{
+    position: absolute;
+    width: 480px;
+    height: 72px;
+    left: 131px;
+    top: 2040px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+#contact1{
+    position: absolute;
+    width: 384px;
+    height: 43.82px;
+    left: 183px;
+    top: 2400px;;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 133% */
+
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+}
+#contact2{
+    position: absolute;
+    width: 385px;
+    height: 24px;
+    left: 928px;
+    top: 2400px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+#footer{
+    position: absolute;
+    width: 33px;
+    height: 18px;
+    left: 661px;
+    top: 2700px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+#telegram{ left:100px;
+    top: 0px;
+    position: absolute;
+   
+}
+#vk{ left:250px;
+    top: 0px;
+    position: absolute;}
+#inst{ left:350px;
+    top: 0px;
+    position: absolute;
+}
